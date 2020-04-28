@@ -280,7 +280,7 @@ AutoConfigurationImportSelector：導入組建選擇器
 會給容器非常多的自動配置類，（xxxAutoConfiguration）;就是給容器中導入這個場景需要的所有組件，並配置好這些做件。
 
 
-![post-1](/static/images/post/20190119/post-1.jpg)
+![post-1](../../static/images/post/20190119/20190119-post-1.jpg)
 
 ```java
 protected List<String> getCandidateConfigurations(AnnotationMetadata metadata,
@@ -298,7 +298,8 @@ this.getBeanClassLoader());
 
 Spring Boot在啟動的時候從類路徑下的META-INF/spring.factorys中獲取的EnableAutoConfiguration指定的值；
 
-將這些值作為自動配置類導入到容器中，自動配置就生效了。 ![post-2](/static/images/post/20190119/post-2.jpg)
+將這些值作為自動配置類導入到容器中，自動配置就生效了。 
+![post-2](../../static/images/post/20190119/20190119-post-2.jpg)
 
 J2EE的整體解決方案
 
@@ -699,7 +700,7 @@ SpringBoot推薦給容器添加組件的方式：
 
 2、全註解方式@Configuration+@Bean（new）
 
-![post-4](/static/images/post/20190119/post-4.jpg)
+![post-4](../../static/images/post/20190119/20190119-post-4.jpg)
 
 
 
@@ -824,7 +825,7 @@ spring:
 
 --spring.profiles.active=dev
 
-![post-5](/static/images/post/20190119/post-5.jpg)
+![post-5](../../static/images/post/20190119/20190119-post-5.jpg)
 
 優先級大於配置文件
 
@@ -857,7 +858,7 @@ SpringBoot啟動掃描以下位置的application.properties或者application.yml
 
 
 
-![post-7](/static/images/post/20190119/post-7.jpg)
+![post-7](../../static/images/post/20190119/20190119-post-7.jpg)
 
 還可以通過spring.config.location来改變配置文件的位置
 
@@ -1243,7 +1244,7 @@ public class HelloWorld {
 }
 ```
 
-![post-8](/static/images/post/20190119/post-8.jpg)
+![post-8](../../static/images/post/20190119/20190119-post-8.jpg)
 
 每個日誌框架的實現框架都有自己的配置文件。使用slf4j以後，**配置文件還是做成日誌實現框架本身的配置文件**；
 
@@ -1265,7 +1266,7 @@ a系統(slf4j+logback)：Spring（commons-logging）、Hibernate（jboss-logging
 
 打開IDEA ，打開pom文件的依賴圖形化顯示
 
-![post-9](/static/images/post/20190119/post-9.jpg)
+![post-9](../../static/images/post/20190119/20190119-post-9.jpg)
 
 SpringBoot的基礎框架
 
@@ -1289,7 +1290,7 @@ SpringBoot的日誌功能
 
 
 
-![post-10](/static/images/post/20190119/post-10.jpg)
+![post-10](../../static/images/post/20190119/20190119-post-10.jpg)
 
 總結：
 
@@ -1397,7 +1398,7 @@ logback.xml直接被日誌框架識別 ，logback-spring.xml日誌框架就不�
 
 slf4j+log4j的方式；
 
-![post-11](/static/images/post/20190119/post-11.jpg)
+![post-11](../../static/images/post/20190119/20190119-post-11.jpg)
 
 ```xml
 <dependency>

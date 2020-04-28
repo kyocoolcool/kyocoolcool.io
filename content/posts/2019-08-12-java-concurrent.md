@@ -25,7 +25,7 @@ meta:
 
 > 利用Mind map整理Concurrent用到的知識點
 
-![post-1](/static/images/post/20190812/post-1.png)
+![post-1](../../static/images/post/20190812/20190812-post-1.png)
 
 ## 4、總結
 

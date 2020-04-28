@@ -74,5 +74,5 @@ Note:實際透過此程式產出金鑰及QRCode
 
 > 實際產生一個專屬QRCode 🤗
 
-![post-1](/static/images/post/20190813/post-1.png)
+![post-1](../../static/images/post/20190813/20190813-post-1.png)
 

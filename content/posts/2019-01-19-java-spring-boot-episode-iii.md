@@ -85,7 +85,7 @@ docker search mysql
 
 默認去docker hub網站查找
 
-![post-44](/static/images/post/20190119/post-44.jpg)
+![post-44](../../static/images/post/20190119/20190119-post-44.jpg)
 
 2、拉取
 
@@ -307,7 +307,7 @@ CREATE TABLE `department` (
 
 2、將department.sql命名為schema-all.sql
 
-![post-45](/static/images/post/20190119/post-45.jpg)
+![post-45](../../static/images/post/20190119/20190119-post-45.jpg)
 
 3、運行測試類
 
@@ -346,13 +346,13 @@ public class HelloController {
 
 2、表中添加數據
 
-![post-46](/static/images/post/20190119/post-46.jpg)
+![post-46](../../static/images/post/20190119/20190119-post-46.jpg)
 
 
 
 3、訪問請求查詢數據
 
-![post-47](/static/images/post/20190119/post-47.jpg)
+![post-47](../../static/images/post/20190119/20190119-post-47.jpg)
 
 
 
@@ -467,7 +467,7 @@ public class DruidConfig {
 
 5、運行測試，訪問 localhost:9000/druid
 
-![post-48](/static/images/post/20190119/post-48.jpg)
+![post-48](../../static/images/post/20190119/20190119-post-48.jpg)
 
 輸入剛才調好的用戶名密碼即可訪問
 
@@ -640,7 +640,7 @@ mapper文件夾下有多個mapper文件，加麻煩，可以直接掃描整個ma
 
 1、新建文件
 
-![post-50](/static/images/post/20190119/post-50.jpg)
+![post-50](../../static/images/post/20190119/20190119-post-50.jpg)
 
 2、新建mybatis的配置文件
 
@@ -722,7 +722,7 @@ public class EmployeeController {
 
 目錄結構
 
-![post-51](/static/images/post/20190119/post-51.jpg)
+![post-51](../../static/images/post/20190119/20190119-post-51.jpg)
 
 
 
@@ -868,11 +868,11 @@ private void initialize(Object[] sources) {
 
 ApplicationInitializer
 
-![post-52](/static/images/post/20190119/post-52.jpg)
+![post-52](../../static/images/post/20190119/20190119-post-52.jpg)
 
  ApplicationListener
 
-![post-53](/static/images/post/20190119/post-53.jpg)
+![post-53](../../static/images/post/20190119/20190119-post-53.jpg)
 
 ## 2、運行Run方法
 
@@ -937,7 +937,7 @@ public ConfigurableApplicationContext run(String... args) {
 
 文件目錄
 
-![post-54](/static/images/post/20190119/post-54.jpg)
+![post-54](../../static/images/post/20190119/20190119-post-54.jpg)
 
 
 
@@ -1075,43 +1075,43 @@ xxx-spring-boot-starter
 
 #### 1、新建一個空項目工程
 
-![post-56](/static/images/post/20190119/post-56.jpg)
+![post-56](../../static/images/post/20190119/20190119-post-56.jpg)
 
 2、項目命名
 
-![post-57](/static/images/post/20190119/post-57.jpg)
+![post-57](../../static/images/post/20190119/20190119-post-57.jpg)
 
 
 
 3、導入module
 
-![post-58](/static/images/post/20190119/post-58.jpg)
+![post-58](../../static/images/post/20190119/20190119-post-58.jpg)
 
 4、新建一個Maven工程
 
-![post-59](/static/images/post/20190119/post-59.jpg)
+![post-59](../../static/images/post/20190119/20190119-post-59.jpg)
 
 5、項目命名
 
-![post-60](/static/images/post/20190119/post-60.jpg)
+![post-60](../../static/images/post/20190119/20190119-post-60.jpg)
 
-![post-61](/static/images/post/20190119/post-61.jpg)
+![post-61](../../static/images/post/20190119/20190119-post-61.jpg)
 
 6、在新建一個autoconfiguration類的spring
 
-![post-62](/static/images/post/20190119/post-62.jpg)
+![post-62](../../static/images/post/20190119/20190119-post-62.jpg)
 
 7、項目命名
 
-![post-63](/static/images/post/20190119/post-63.jpg)
+![post-63](../../static/images/post/20190119/20190119-post-63.jpg)
 
 8、無需導入依賴
 
-![post-64](/static/images/post/20190119/post-64.jpg)
+![post-64](../../static/images/post/20190119/20190119-post-64.jpg)
 
 9、next
 
-![post-65](/static/images/post/20190119/post-65.jpg)
+![post-65](../../static/images/post/20190119/20190119-post-65.jpg)
 
 最後配置完成
 
@@ -1123,7 +1123,7 @@ xxx-spring-boot-starter
 
 目錄
 
-![post-66](/static/images/post/20190119/post-66.jpg)
+![post-66](../../static/images/post/20190119/20190119-post-66.jpg)
 
 2、pom文件修改
 
@@ -1143,7 +1143,7 @@ xxx-spring-boot-starter
 
 3、編寫相關的類
 
-![post-67](/static/images/post/20190119/post-67.jpg)
+![post-67](../../static/images/post/20190119/20190119-post-67.jpg)
 
 4、HelloProperties
 
@@ -1255,7 +1255,7 @@ com.lxy.starter.HelloServiceAutoConfiguration
 
 9、install生成
 
-![post-68](/static/images/post/20190119/post-68.jpg)
+![post-68](../../static/images/post/20190119/20190119-post-68.jpg)
 
 #### 3、測試
 
@@ -1298,6 +1298,6 @@ lxy.hello.suffix=-Success
 
 4、運行訪問http://localhost:8080/hello
 
-![post-70](/static/images/post/20190119/post-70.jpg)
+![post-70](../../static/images/post/20190119/20190119-post-70.jpg)
 
 實作功能代碼：[spring-boot](https://github.com/kyocoolcool/spring-integration/tree/master/spring-boot-fundamentals)

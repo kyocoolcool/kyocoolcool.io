@@ -77,7 +77,7 @@ webjars：以jar包的方式引入靜態資源
 
 http://www.webjars.org/
 
-![post-12](/static/images/post/20190119/post-12.jpg)
+![post-12](../../static/images/post/20190119/20190119-post-12.jpg)
 
 localhost:8080/webjars/jquery/3.3.1/jquery.js
 
@@ -99,11 +99,11 @@ private String staticPathPattern = "/**";
 "/";當前項目的根路徑
 ```
 
-![post-13](/static/images/post/20190119/post-13.jpg)
+![post-13](../../static/images/post/20190119/20190119-post-13.jpg)
 
 localhost:8080/abc ==>去靜態資源文件夾中找abc
 
-![post-14](/static/images/post/20190119/post-14.jpg)
+![post-14](../../static/images/post/20190119/20190119-post-14.jpg)
 
 3、index頁面歡迎頁，靜態資源文件夾下所有的index.html頁面；被“/**”映射；
 
@@ -247,11 +247,11 @@ public class ThymeleafProperties {
 </div>
 ```
 
-![post-15-01](/static/images/post/20190119/post-15-01.jpg)
+![post-15-01](../../static/images/post/20190119/20190119-post-15-01.jpg)
 
 **直接訪問HTML頁面**
 
-![post-15-02](/static/images/post/20190119/post-15-02.jpg)
+![post-15-02](../../static/images/post/20190119/20190119-post-15-02.jpg)
 
 **2)、內聯寫法註意需要在body上加上 th:inline="text"敲黑板**
 
@@ -623,7 +623,7 @@ public WebMvcConfigurerAdapter webMvcConfigurerAdapter(){
 
 1、編寫國際化配置文件，抽取頁面需要的顯示的國際化消息
 
-![post-16](/static/images/post/20190119/post-16.jpg)
+![post-16](../../static/images/post/20190119/20190119-post-16.jpg)
 
 2、SpringBoot自動配置好了國際化配置的資源文件
 
@@ -652,7 +652,7 @@ public class MessageSourceAutoConfiguration {
 
 3、對IDEA的編碼進行設置
 
-![post-17](/static/images/post/20190119/post-17.jpg)
+![post-17](../../static/images/post/20190119/20190119-post-17.jpg)
 
 4、login進行標簽插入
 
@@ -722,7 +722,7 @@ public LocaleResolver localeResolver() {
 
 默認的就是根據請求頭帶來的區域信息獲取local國際化信息（截圖就是這麽犀利）
 
-![post-18](/static/images/post/20190119/post-18.jpg)
+![post-18](../../static/images/post/20190119/20190119-post-18.jpg)
 
 #### 2、點擊鏈接切換國際化
 
@@ -1118,7 +1118,7 @@ table class="table table-striped table-sm">
 
 #### 3、效果顯示
 
-![post-19](/static/images/post/20190119/post-19.jpg)
+![post-19](../../static/images/post/20190119/20190119-post-19.jpg)
 
 
 
@@ -1430,7 +1430,7 @@ form表單卸載外面，input 中 name="_method" value="delete" 模擬delete請
 
 默認錯誤頁面
 
-![post-20](/static/images/post/20190119/post-20.jpg)
+![post-20](../../static/images/post/20190119/20190119-post-20.jpg)
 
 原理參照
 
@@ -1576,7 +1576,7 @@ l瀏覽器發送請求 accpt:text/html
 
 舉例子：新建4xx和5xx文件
 
-![post-21](/static/images/post/20190119/post-21.jpg)
+![post-21](../../static/images/post/20190119/20190119-post-21.jpg)
 
 
 
@@ -1590,7 +1590,7 @@ l瀏覽器發送請求 accpt:text/html
 </body>
 ```
 
-![post-22](/static/images/post/20190119/post-22.jpg)
+![post-22](../../static/images/post/20190119/20190119-post-22.jpg)
 
 ### 3、如何定制Json數據
 
@@ -1710,7 +1710,7 @@ map.put("ext", ext);
 
 SpringBoot默認使用Tomcat作為嵌入式的Servlet容器；
 
-![post-23-01](/static/images/post/20190119/post-23-01.jpg)
+![post-23-01](../../static/images/post/20190119/20190119-post-23-01.jpg)
 
 問題？
 
@@ -1936,11 +1936,11 @@ public interface EmbeddedServletContainerFactory {
 
 繼承關系
 
-![post-24](/static/images/post/20190119/post-24.jpg)
+![post-24](../../static/images/post/20190119/20190119-post-24.jpg)
 
 2）、EmbeddedServletContainer:(嵌入式的Servlet容器)
 
-![post-25](/static/images/post/20190119/post-25.jpg)
+![post-25](../../static/images/post/20190119/20190119-post-25.jpg)
 
 3）、TomcatEmbeddedServletContainerFactory為例 
 
@@ -2158,63 +2158,63 @@ ioc啟動創建Servlet容器
 
 1、創建程序為war程序
 
-![post-26](/static/images/post/20190119/post-26.jpg)
+![post-26](../../static/images/post/20190119/20190119-post-26.jpg)
 
 2、選擇版本
 
-![post-27](/static/images/post/20190119/post-27.jpg)
+![post-27](../../static/images/post/20190119/20190119-post-27.jpg)
 
 3、添加tomcat
 
-![post-28](/static/images/post/20190119/post-28.jpg)
+![post-28](../../static/images/post/20190119/20190119-post-28.jpg)
 
 4、選擇tomcat
 
-![post-30](/static/images/post/20190119/post-30.jpg)
+![post-30](../../static/images/post/20190119/20190119-post-30.jpg)
 
 5、選擇本地的Tomcat
 
-![post-31](/static/images/post/20190119/post-31.jpg)
+![post-31](../../static/images/post/20190119/20190119-post-31.jpg)
 
 6、配置tomcat路徑
 
-![post-32](/static/images/post/20190119/post-32.jpg)
+![post-32](../../static/images/post/20190119/20190119-post-32.jpg)
 
 7、添加服務器
 
-![post-33](/static/images/post/20190119/post-33.jpg)
+![post-33](../../static/images/post/20190119/20190119-post-33.jpg)
 
 8、添加exploded的war配置，應用OK tomcat配置完成
 
-![post-34](/static/images/post/20190119/post-34.jpg)
+![post-34](../../static/images/post/20190119/20190119-post-34.jpg)
 
 二、配置webapp文件夾
 
 1、點擊配置
 
-![post-35](/static/images/post/20190119/post-35.jpg)
+![post-35](../../static/images/post/20190119/20190119-post-35.jpg)
 
 2、添加webapp目錄
 
-![post-36](/static/images/post/20190119/post-36.jpg)
+![post-36](../../static/images/post/20190119/20190119-post-36.jpg)
 
 3、默認配置就可以
 
-![post-37](/static/images/post/20190119/post-37.jpg)
+![post-37](../../static/images/post/20190119/20190119-post-37.jpg)
 
 4、配置web.xml文件
 
-![post-38](/static/images/post/20190119/post-38.jpg)
+![post-38](../../static/images/post/20190119/20190119-post-38.jpg)
 
 5、文檔目錄結構
 
-![post-39](/static/images/post/20190119/post-39.jpg)
+![post-39](../../static/images/post/20190119/20190119-post-39.jpg)
 
 ### 2、運行一個示例
 
 1、項目目錄
 
-![post-40](/static/images/post/20190119/post-40.jpg)
+![post-40](../../static/images/post/20190119/20190119-post-40.jpg)
 
 2、配置文件寫視圖解析前後綴
 
@@ -2257,7 +2257,7 @@ message:${message}
 
 5、運行結果
 
-![post-41](/static/images/post/20190119/post-41.jpg)
+![post-41](../../static/images/post/20190119/20190119-post-41.jpg)
 
 步驟
 
@@ -2317,7 +2317,7 @@ servlet3.0規範
 
 2、spring web模塊里有這個文件
 
-![post-42](/static/images/post/20190119/post-42.jpg)
+![post-42](../../static/images/post/20190119/20190119-post-42.jpg)
 
 ```java
 org.springframework.web.SpringServletContainerInitializer

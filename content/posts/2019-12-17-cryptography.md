@@ -57,7 +57,7 @@ meta:
 - RC5
 - RC6
 
-![post-1](/static/images/post/20191217/post-1.png)
+![post-1](../../static/images/post/20191217/20191217-post-1.png)
 
 ##非對稱加密技術(Asymmetric Encryption；Public Key Encryption)
 – 每個使用者都擁有一對金鑰：公開金鑰(Public key)及私密金鑰(Private key)，
@@ -65,10 +65,10 @@ meta:
 就必須用另一把金鑰解密，加解密的鑰匙要是完整一對(pair)的，所以可以是公鑰加密私鑰解密，
 也可以是私鑰加密公鑰解密。
 
-![post-2](/static/images/post/20191217/post-2.png)
+![post-2](../../static/images/post/20191217/20191217-post-2.png)
 
 ##非對稱加密演算法應用
-![post-3](/static/images/post/20191217/post-3.png)
+![post-3](../../static/images/post/20191217/20191217-post-3.png)
 
 - 優點:
 >公開鑰匙可以公開分送
@@ -81,7 +81,7 @@ meta:
 - RSA:使用最廣泛的演算法，由羅納德·李維斯特（Ron Rivest）、阿迪·薩莫爾（Adi Shamir）
 和倫納德·阿德曼（Leonard Adleman）一起提出的。藉由歐拉定理推導出，目前建議key的長度為2048bits。
 
-![post-4](/static/images/post/20191217/post-4.png)
+![post-4](../../static/images/post/20191217/20191217-post-4.png)
 
 - 迪菲－赫爾曼金鑰交換協定中的公鑰加密演算法(Diffie-Hellman,DH)
 - ElGamal

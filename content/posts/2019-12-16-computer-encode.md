@@ -65,15 +65,15 @@ EASCII碼比ASCII碼擴充出來的符號包括表格符號、計算符號、希
 計算機是好物，e.g. A對應到的進位制數值，如下:
 >二進位制和八進位制
 
-![post-1](/static/images/post/20191216/post-1.png)
+![post-1](../../static/images/post/20191216/20191216-post-1.png)
 
 >十進位制
 
-![post-2](/static/images/post/20191216/post-2.png)
+![post-2](../../static/images/post/20191216/20191216-post-2.png)
 
 >十六進位制
 
-![post-3](/static/images/post/20191216/post-3.png)
+![post-3](../../static/images/post/20191216/20191216-post-3.png)
 
 ##碼點（Code Point）
 概念上，我們會把這些文字符號所對應到的編號，稱作是碼點，又稱作「編碼位置」。
@@ -107,6 +107,6 @@ UTF-8, UTF-16 或 UTF-32 則都可以視為是 Unicode 實做的一種方式，
 110xxxxx 10xxxxxx.如果是這樣的格式,則把兩個字節當一個單元。  
 1110xxxx 10xxxxxx 10xxxxxx 如果是這種格式則是三個字節當一個單元。
 
-![post-4](/static/images/post/20191216/post-4.png)
+![post-4](../../static/images/post/20191216/20191216-post-4.png)
 
 若在純英語系國家會推薦使用UTF-8，節省空間，而且編碼代號也與ASCII相同，若在中文語系則較適用UTF-16，可以減少轉換判斷的時間。

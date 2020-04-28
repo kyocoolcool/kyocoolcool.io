@@ -126,6 +126,6 @@ public class DynaAttributeTag extends SimpleTagSupport implements DynamicAttribu
 ```
 
 ###運行效果
-![post-1](/static/images/post/20181015/post-1.png)  
+![post-1](/static/images/post/20181015/20181015-post-1.png)  
 
-![post-2](/static/images/post/20181015/post-2.png)
+![post-2](/static/images/post/20181015/20181015-post-2.png)

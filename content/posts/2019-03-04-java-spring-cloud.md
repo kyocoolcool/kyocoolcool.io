@@ -43,6 +43,6 @@ SpringBoot專注於快速、方便的開發單個微服務個體，SpringCloud�
 - Zuul路由網關
 - SpringCloud Config分布式配置中心
 
-![post-1](/static/images/post/20190304/post-1.png)
+![post-1](../../static/images/post/20190304/20190304-post-1.png)
 
 實作功能代碼：[spring-cloud](https://github.com/kyocoolcool/spring-integration/tree/master/spring-cloud-fundamentals)

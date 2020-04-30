@@ -7,6 +7,8 @@ featuredImage: >-
   https://kyocoolcool.nctu.me/images/post/cryptography.png
 excerpt: >-
   Cryptography Introduce.
+categories:
+  - category: News  
 meta:
   canonicalLink: ''
   description: Cryptography Introduce.

@@ -7,6 +7,8 @@ featuredImage: >-
   https://kyocoolcool.nctu.me/images/post/encode.png
 excerpt: >-
   Encoding Introduce.
+categories:
+  - category: Updates 
 meta:
   canonicalLink: ''
   description: Character Encoding Introduce.

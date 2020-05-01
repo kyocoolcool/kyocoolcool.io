@@ -4,7 +4,7 @@ title: Concurrent Thread
 status: Featured / Published
 date: '2019-08-12'
 featuredImage: >-
-  https://kyocoolcool.nctu.me/images/post/java.png
+  https://raw.githubusercontent.com/kyocoolcool/kyocoolcool.io/master/static/images/logo/java.png
 excerpt: >-
  Concurrent Thread.
 meta:

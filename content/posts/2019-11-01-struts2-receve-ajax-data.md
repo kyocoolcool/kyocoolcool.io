@@ -4,7 +4,7 @@ title: Struts2 accept Ajax json/array/list
 status: Featured / Published
 date: '2019-11-01'
 featuredImage: >-
-  https://kyocoolcool.nctu.me/images/post/struts2.png
+  https://raw.githubusercontent.com/kyocoolcool/kyocoolcool.io/master/static/images/logo/struts2.png
 excerpt: >-
   Struts2 fundamentals.
 meta:

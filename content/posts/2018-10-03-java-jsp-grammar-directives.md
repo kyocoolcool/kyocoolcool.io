@@ -4,7 +4,7 @@ title: JSP Grammar & Directives
 status: Featured / Published
 date: '2018-10-03'
 featuredImage: >-
-  https://kyocoolcool.nctu.me/images/post/jsp.png
+  https://raw.githubusercontent.com/kyocoolcool/kyocoolcool.io/master/static/images/logo/jsp.png
 excerpt: >-
   JSP 語法使用.
 meta:

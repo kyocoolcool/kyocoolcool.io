@@ -4,7 +4,7 @@ title: Java 8 Feature
 status: Featured / Published
 date: '2019-04-23'
 featuredImage: >-
-  https://kyocoolcool.nctu.me/images/post/java8.png
+  https://raw.githubusercontent.com/kyocoolcool/kyocoolcool.io/master/static/images/logo/java8.png
 excerpt: >-
  Java 8 Feature.
 meta:

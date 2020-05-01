@@ -4,7 +4,7 @@ title: JSP Custom Tag
 status: Featured / Published
 date: '2018-10-15'
 featuredImage: >-
-  https://kyocoolcool.nctu.me/images/post/jsp.png
+  https://raw.githubusercontent.com/kyocoolcool/kyocoolcool.io/master/static/images/logo/jsp.png
 excerpt: >-
   JSP 自訂標籤.
 meta:

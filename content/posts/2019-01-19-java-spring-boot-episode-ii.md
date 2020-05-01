@@ -4,7 +4,7 @@ title: Spring Boot Episode II
 status: Featured / Published
 date: '2019-01-19'
 featuredImage: >-
-  https://kyocoolcool.nctu.me/images/post/springboot.png
+  https://raw.githubusercontent.com/kyocoolcool/kyocoolcool.io/master/static/images/logo/springboot.png
 excerpt: >-
   Spring Boot fundamentals.
 meta:

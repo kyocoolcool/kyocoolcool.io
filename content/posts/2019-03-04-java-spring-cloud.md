@@ -4,7 +4,7 @@ title: Spring Cloud
 status: Featured / Published
 date: '2019-03-04'
 featuredImage: >-
-  https://kyocoolcool.nctu.me/images/post/springcloud.png
+  https://raw.githubusercontent.com/kyocoolcool/kyocoolcool.io/master/static/images/logo/springcloud.png
 excerpt: >-
   Spring Cloud 實作.
 meta:

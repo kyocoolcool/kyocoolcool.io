@@ -4,7 +4,7 @@ title: Understanding Character Encoding
 status: Featured / Published
 date: '2019-12-16'
 featuredImage: >-
-  https://kyocoolcool.nctu.me/images/post/encode.png
+  https://raw.githubusercontent.com/kyocoolcool/kyocoolcool.io/master/static/images/logo/encode.png
 excerpt: >-
   Encoding Introduce.
 categories:

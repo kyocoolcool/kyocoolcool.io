@@ -4,7 +4,7 @@ title: Secret Need Cryptography
 status: Featured / Published
 date: '2019-12-17'
 featuredImage: >-
-  https://kyocoolcool.nctu.me/images/post/cryptography.png
+  https://raw.githubusercontent.com/kyocoolcool/kyocoolcool.io/master/static/images/logo/cryptography.png
 excerpt: >-
   Cryptography Introduce.
 categories:

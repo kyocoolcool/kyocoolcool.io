@@ -14,7 +14,7 @@ export default () => (
       <div className="container taCenter">
         <span>
           © Copyright {new Date().getFullYear()} All rights reserved. Crafted by{' '}
-          <a href="https://github.com/kyocoolcool">Chris Chen</a>.
+          <a href="https://github.com/kyocoolcool">Chris Chen</a>
         </span>
       </div>
     </footer>

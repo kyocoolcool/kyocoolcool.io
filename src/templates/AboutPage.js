@@ -4,7 +4,6 @@ import About from '../components/AboutPage.js';
 import PageHeader from '../components/PageHeader';
 import Layout from '../components/Layout.js';
 
-// Export Template for use in CMS preview
 export const AboutPageTemplate = ({
                                     title,
                                     subtitle,

@@ -1,0 +1,68 @@
+{
+  "headline": "Extend your applications\nwith Kubernetes",
+  "whatIs": {
+    "headline": "What is Kyma?",
+    "paragraph": "Kyma {spelling} is a platform for extending applications with serverless functions and microservices. It provides a selection of cloud-native projects glued together to simplify the creation and management of extensions.",
+    "spelling":"/kee-ma/",
+    "installButton": "Install"
+  },
+  "extensionsAndTools": {
+    "extend": {
+      "headline": "Create extensions...",
+      "paragraph": "Don't waste time rewriting your monoliths but focus on their extensibility instead. Make sure your application exposes an API and is able to send events to Kyma. Use our Console UI or CLI to connect, extend, and integrate applications.",
+      "readDocsButton": "Overview"
+    },
+    "tools": {
+      "headline": "...with tools at hand",
+      "paragraph": "Kyma gives you a properly configured, monitored, and secured Kubernetes cluster. It combines various open-source projects for authentication, logging, eventing, alerting, tracing, and many more. We ensured they play well together so you can only focus on coding.",
+      "readDocsButton": "Components"
+    }
+  },
+  "keyFeatures": {
+    "headline": "Key features",
+    "seeButton": "See all Key Features",
+    "readMoreLink": "Read More",
+    "applicationConnector": {
+      "id": "applicationConnector",
+      "headline": "Application Connector",
+      "paragraph": "It connects external on-premise or cloud-native applications with Kyma and registers their APIs and Events that internal applications or functions can later consume."
+    },
+    "serverless": {
+      "id": "serverless",
+      "headline": "Serverless",
+      "paragraph": "It is based on Kubeless and allows you to write short code snippets, known as functions or lambdas, that consume the Events exposed by the Application Connector and use external services provided by the Service Catalog to trigger certain business logic."
+    },
+    "serviceManagement": {
+      "id": "serviceManagement",
+      "headline": "Service Management",
+      "paragraph": "It offers third-party services in the form of Service Classes exposed by the Service Brokers that a given function can consume to perform certain actions."
+    }
+  },
+  "community": {
+    "headline": "Connect with the Kyma community and get involved!",
+    "paragraphs": [
+      "Kyma has an active and vibrant community that supports its development and helps to drive it forward.",
+      "Join the community and participate in our {sigLink} meetings"
+    ],
+    "sigLink": "Special Interest Group and Working Group",
+    "linksHeader": "Talk to us!"
+  },
+  "earlyAdopters": {
+    "headline": "Early adopters"
+  },
+  "adopters": {
+    "headline": "Used by",
+    "paragraph": "Discover what our happy users have to say about their experience with Kyma.",
+    "readMoreLink": "Read More",
+    "addYourCompany": "Add your company"
+  },
+  "newsroom": {
+    "headline": "Newsroom",
+    "twitterHeader": "Twitter",
+    "twitterButton": "Check our tweets",
+    "youtubeHeader": "YouTube",
+    "youtubeButton": "Watch our videos",
+    "lastBlogPostHeader": "Kyma blog",
+    "lastBlogPostButton": "Read our posts"
+  }
+}

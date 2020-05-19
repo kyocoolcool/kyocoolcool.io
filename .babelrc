@@ -1,26 +1,41 @@
 {
   "presets": [
     [
-      "babel-preset-gatsby",
+      "@babel/preset-env",
       {
+        "loose": true,
+        "modules": false,
+        "useBuiltIns": "usage",
+        "shippedProposals": true,
         "targets": {
-          "browsers": [">0.25%", "not dead"]
+          "browsers": [">0.25%", "not dead"],
         }
       }
     ],
-    "@babel/preset-typescript",
     [
-      "@babel/preset-env",
+      "@babel/preset-react",
       {
-        "targets": {
-          "node": "6.10.3"
-        }
+        "useBuiltIns": true,
+        "pragma": "React.createElement",
       }
-    ]
+    ],
+    "@babel/flow"
   ],
   "plugins": [
-    "@babel/plugin-proposal-class-properties",
-    "@babel/plugin-transform-object-assign",
-    "@babel/plugin-proposal-object-rest-spread"
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": true
+      }
+    ],
+    "@babel/plugin-syntax-dynamic-import",
+    "babel-plugin-macros",
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "helpers": true,
+        "regenerator": true
+      }
+    ]
   ]
 }

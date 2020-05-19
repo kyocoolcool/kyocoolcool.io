@@ -1,3 +1,12 @@
-const { nodeAPI } = require("./gatsby");
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * @emails react-core
+ */
 
-module.exports = nodeAPI;
+'use strict';
+
+exports.onCreateWebpackConfig = require('./gatsby/onCreateWebpackConfig');
+exports.createPages = require('./gatsby/createPages');
+exports.onCreateNode = require('./gatsby/onCreateNode');
+exports.onCreatePage = require('./gatsby/onCreatePage');

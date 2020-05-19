@@ -1,1 +1,10 @@
-/static/**/*.min.js
+node_modules/*
+
+# Ignore markdown files and examples
+content/*
+
+# Ignore built files
+public/*
+
+# Ignore examples
+examples/*

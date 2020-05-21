@@ -50,7 +50,7 @@ class Home extends Component {
     return (
       <Layout location={location}>
         <TitleAndMetaTags
-          title="React &ndash; A JavaScript library for building user interfaces"
+          title="kyocoolcool &ndash; Full stack program blog"
           canonicalUrl={createCanonicalUrl('/')}
         />
         <div css={{width: '100%'}}>
@@ -111,7 +111,7 @@ class Home extends Component {
                         fontSize: 60,
                       },
                     }}>
-                    React
+                    kyocoolcool
                   </h1>
                   <p
                     css={{
@@ -133,7 +133,7 @@ class Home extends Component {
                         fontSize: 30,
                       },
                     }}>
-                    A JavaScript library for building user interfaces
+                    Full stack program blog
                   </p>
                   <Flex
                     valign="center"

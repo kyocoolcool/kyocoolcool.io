@@ -8,10 +8,10 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'React: A JavaScript library for building user interfaces',
-    siteUrl: 'https://reactjs.org',
-    rssFeedTitle: 'React',
-    rssFeedDescription: 'A JavaScript library for building user interfaces',
+    title: 'kyocoolcool-full stack program blog',
+    siteUrl: 'https://kyocoolcool.com',
+    rssFeedTitle: 'kyocoolcool',
+    rssFeedDescription: 'Full stack program blog',
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',

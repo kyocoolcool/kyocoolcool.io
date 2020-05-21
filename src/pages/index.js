@@ -50,7 +50,7 @@ class Home extends Component {
     return (
       <Layout location={location}>
         <TitleAndMetaTags
-          title="React &ndash; A JavaScript library for building user interfaces"
+          title="kyocoolcool &ndash; full stack program blog"
           canonicalUrl={createCanonicalUrl('/')}
         />
         <div css={{width: '100%'}}>
@@ -111,7 +111,7 @@ class Home extends Component {
                         fontSize: 60,
                       },
                     }}>
-                    React
+                    kyocoolcool
                   </h1>
                   <p
                     css={{
@@ -133,7 +133,7 @@ class Home extends Component {
                         fontSize: 30,
                       },
                     }}>
-                    A JavaScript library for building user interfaces
+                    Full stack program blog
                   </p>
                   <Flex
                     valign="center"
@@ -151,14 +151,14 @@ class Home extends Component {
                       <ButtonLink
                         to="/docs/getting-started.html"
                         type="primary">
-                        Get Started
+                        Get Document
                       </ButtonLink>
                     </CtaItem>
-                    <CtaItem>
-                      <ButtonLink to="/tutorial/tutorial.html" type="secondary">
-                        Take the Tutorial
-                      </ButtonLink>
-                    </CtaItem>
+                    {/*<CtaItem>*/}
+                    {/*  <ButtonLink to="/tutorial/tutorial.html" type="secondary">*/}
+                    {/*    Take the Tutorial*/}
+                    {/*  </ButtonLink>*/}
+                    {/*</CtaItem>*/}
                   </Flex>
                 </Container>
               </div>
@@ -256,55 +256,55 @@ class Home extends Component {
                   borderBottom: `1 solid ${colors.divider}`,
                 }}
               />
-              <section css={sectionStyles}>
-                <div id="examples">
-                  {examples.edges.map(({node}, index) => {
-                    const snippet = code[node.fileAbsolutePath];
-                    return (
-                      <CodeExample
-                        key={index}
-                        id={snippet.id}
-                        code={snippet.code}
-                        containerNodeID={node.frontmatter.domid}
-                        loaded={babelLoaded}>
-                        <h3 css={headingStyles}>{node.frontmatter.title}</h3>
-                        <div dangerouslySetInnerHTML={{__html: node.html}} />
-                      </CodeExample>
-                    );
-                  })}
-                </div>
-              </section>
+              {/*<section css={sectionStyles}>*/}
+              {/*  <div id="examples">*/}
+              {/*    {examples.edges.map(({node}, index) => {*/}
+              {/*      const snippet = code[node.fileAbsolutePath];*/}
+              {/*      return (*/}
+              {/*        <CodeExample*/}
+              {/*          key={index}*/}
+              {/*          id={snippet.id}*/}
+              {/*          code={snippet.code}*/}
+              {/*          containerNodeID={node.frontmatter.domid}*/}
+              {/*          loaded={babelLoaded}>*/}
+              {/*          <h3 css={headingStyles}>{node.frontmatter.title}</h3>*/}
+              {/*          <div dangerouslySetInnerHTML={{__html: node.html}} />*/}
+              {/*        </CodeExample>*/}
+              {/*      );*/}
+              {/*    })}*/}
+              {/*  </div>*/}
+              {/*</section>*/}
             </div>
           </Container>
 
-          <section
-            css={{
-              background: colors.dark,
-              color: colors.white,
-              paddingTop: 45,
-              paddingBottom: 25,
-            }}>
-            <Container>
-              <Flex
-                valign="center"
-                halign="center"
-                css={{
-                  flexWrap: 'wrap',
-                  justifyContent: 'center',
-                }}>
-                <CtaItem>
-                  <ButtonLink to="/docs/getting-started.html" type="primary">
-                    Get Started
-                  </ButtonLink>
-                </CtaItem>
-                <CtaItem>
-                  <ButtonLink to="/tutorial/tutorial.html" type="secondary">
-                    Take the Tutorial
-                  </ButtonLink>
-                </CtaItem>
-              </Flex>
-            </Container>
-          </section>
+          {/*<section*/}
+          {/*  css={{*/}
+          {/*    background: colors.dark,*/}
+          {/*    color: colors.white,*/}
+          {/*    paddingTop: 45,*/}
+          {/*    paddingBottom: 25,*/}
+          {/*  }}>*/}
+          {/*  <Container>*/}
+          {/*    <Flex*/}
+          {/*      valign="center"*/}
+          {/*      halign="center"*/}
+          {/*      css={{*/}
+          {/*        flexWrap: 'wrap',*/}
+          {/*        justifyContent: 'center',*/}
+          {/*      }}>*/}
+          {/*      <CtaItem>*/}
+          {/*        <ButtonLink to="/docs/getting-started.html" type="primary">*/}
+          {/*          Get Document*/}
+          {/*        </ButtonLink>*/}
+          {/*      </CtaItem>*/}
+          {/*      <CtaItem>*/}
+          {/*        <ButtonLink to="/tutorial/tutorial.html" type="secondary">*/}
+          {/*          Take the Tutorial*/}
+          {/*        </ButtonLink>*/}
+          {/*      </CtaItem>*/}
+          {/*    </Flex>*/}
+          {/*  </Container>*/}
+          {/*</section>*/}
         </div>
       </Layout>
     );

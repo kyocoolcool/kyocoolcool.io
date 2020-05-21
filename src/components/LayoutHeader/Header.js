@@ -92,7 +92,7 @@ const Header = ({location}: {location: Location}) => (
                 border: 0,
               },
             }}>
-            React
+            kyocoolcool
           </span>
         </Link>
 
@@ -136,7 +136,7 @@ const Header = ({location}: {location: Location}) => (
           ))}
         </nav>
 
-        <DocSearch />
+        {/*<DocSearch />*/}
 
         <div
           css={{
@@ -152,60 +152,60 @@ const Header = ({location}: {location: Location}) => (
             //width: 'calc(100% / 4)',
             //},
           }}>
-          <Link
-            css={{
-              padding: '5px 10px',
-              whiteSpace: 'nowrap',
-              ...fonts.small,
+          {/*<Link*/}
+          {/*  css={{*/}
+          {/*    padding: '5px 10px',*/}
+          {/*    whiteSpace: 'nowrap',*/}
+          {/*    ...fonts.small,*/}
 
-              ':hover': {
-                color: colors.brand,
-              },
+          {/*    ':hover': {*/}
+          {/*      color: colors.brand,*/}
+          {/*    },*/}
 
-              ':focus': {
-                outline: 0,
-                backgroundColor: colors.lighter,
-                borderRadius: 15,
-              },
+          {/*    ':focus': {*/}
+          {/*      outline: 0,*/}
+          {/*      backgroundColor: colors.lighter,*/}
+          {/*      borderRadius: 15,*/}
+          {/*    },*/}
 
-              [media.lessThan('medium')]: {
-                display: 'none',
-              },
-            }}
-            to="/versions">
-            v{version}
-          </Link>
-          <Link
-            css={{
-              display: 'flex',
-              alignItems: 'center',
-              padding: '5px 10px',
-              whiteSpace: 'nowrap',
-              ...fonts.small,
+          {/*    [media.lessThan('medium')]: {*/}
+          {/*      display: 'none',*/}
+          {/*    },*/}
+          {/*  }}*/}
+          {/*  to="/versions">*/}
+          {/*  v{version}*/}
+          {/*</Link>*/}
+          {/*<Link*/}
+          {/*  css={{*/}
+          {/*    display: 'flex',*/}
+          {/*    alignItems: 'center',*/}
+          {/*    padding: '5px 10px',*/}
+          {/*    whiteSpace: 'nowrap',*/}
+          {/*    ...fonts.small,*/}
 
-              ':hover': {
-                color: colors.brand,
-              },
+          {/*    ':hover': {*/}
+          {/*      color: colors.brand,*/}
+          {/*    },*/}
 
-              ':focus': {
-                outline: 0,
-                backgroundColor: colors.lighter,
-                borderRadius: 15,
-              },
-            }}
-            to="/languages">
-            <LanguagesIcon />{' '}
-            <span
-              css={{
-                marginLeft: '0.5rem',
+          {/*    ':focus': {*/}
+          {/*      outline: 0,*/}
+          {/*      backgroundColor: colors.lighter,*/}
+          {/*      borderRadius: 15,*/}
+          {/*    },*/}
+          {/*  }}*/}
+          {/*  to="/languages">*/}
+          {/*  <LanguagesIcon />{' '}*/}
+          {/*  <span*/}
+          {/*    css={{*/}
+          {/*      marginLeft: '0.5rem',*/}
 
-                [media.lessThan('medium')]: {
-                  display: 'none',
-                },
-              }}>
-              Languages
-            </span>
-          </Link>
+          {/*      [media.lessThan('medium')]: {*/}
+          {/*        display: 'none',*/}
+          {/*      },*/}
+          {/*    }}>*/}
+          {/*    Languages*/}
+          {/*  </span>*/}
+          {/*</Link>*/}
           <a
             css={{
               padding: '5px 10px',
@@ -227,7 +227,7 @@ const Header = ({location}: {location: Location}) => (
                 display: 'none',
               },
             }}
-            href="https://github.com/facebook/react/"
+            href="https://github.com/kyocoolcool"
             target="_blank"
             rel="noopener">
             GitHub

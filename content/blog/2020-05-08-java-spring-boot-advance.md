@@ -1,7 +1,11 @@
 ---
-title: "Spring Boot Advance"
+title: "React v16.14.0"
 author: [chrischen]
+redirect_from:
+  - "blog/2020/05/08-java-spring-boot-advance.html"
 ---
+Spring boot
+
 ##Spring Boot
 
 ##Feature
@@ -142,5 +146,4 @@ public class ReadingListController {
 ###測試Web應用程式
 在spring boot測試Web應用程式提供兩種方式:
 - Spring Mock MVC:能在一個近似真實的模擬servlet容器裡測試控制器，而不用啟動應用伺服器。
-- Web集成測試:在嵌入式server容器裡啟動應用程式，在真正的應用服務器裡進行測試。    
-
+- Web集成測試:在嵌入式server容器裡啟動應用程式，在真正的應用服務器裡進行測試。
